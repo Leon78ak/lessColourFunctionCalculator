@@ -19,7 +19,7 @@ angular.module('scfc', [])
 
     		return {
     			baseColor: '#' + tinycolor(a).toHex(),
-    			fnHue : 'adjust-hue',
+    			fnHue : 'spin',
     			hue : hue.toFixed(4),
     			fnSat : fnSat,
     			sat : sat.toFixed(4),
